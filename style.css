@@ -1,0 +1,93 @@
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  width: 375px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  padding: 10px 12px 10px 12px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #6070ff;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -36px;
+  top: -5px;
+  padding: 8px 0 0 0;
+  border-radius: 8px 0 0 0;
+}
+
+section {
+  background-image: url(images/header-shapes\ mobile.png);
+  position: relative;
+  width: 375px;
+  height: 604px;
+  top: 0;
+  padding: 114px 24px 114px 24px;
+}
+
+section h2 {
+  width: 327px;
+  height: 150px;
+  font-size: 40px;
+  line-height: 52px;
+  position: relative;
+  top: -91px;
+}
+
+section p {
+  width: 327px;
+  height: 146px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  position: relative;
+  top: -90px;
+}
+
+section h5 {
+  width: 117px;
+  height: 24px;
+  position: relative;
+  top: -108px;
+  color: #6070ff;
+}
+
+.icons {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 19.99px;
+  height: 19.96px;
+  position: relative;
+  top: -124px;
+  left: -12px;
+  object-fit: contain;
+}
