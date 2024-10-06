@@ -10,6 +10,43 @@
   font-style: normal;
 }
 
+.poppins-lightBold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-lighter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.myWorks {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, 604px);
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  padding: 114px 24px 114px 24px;
+  background: #f6f6f6;
+  gap: 88px;
+  border-radius: 27px;
+}
+
+.project4 {
+  grid-row: 4;
+}
+
 .header {
   width: 375px;
   height: 48px;
@@ -33,22 +70,25 @@
   width: 40px;
   height: 40px;
   position: relative;
-  left: -36px;
-  top: -5px;
-  padding: 8px 0 0 0;
-  border-radius: 8px 0 0 0;
+  left: 6px;
+  top: 1px;
+  padding: 8px;
+  border-radius: 8px;
 }
 
-section {
+.headline {
   background-image: url(images/header-shapes\ mobile.png);
   position: relative;
-  width: 375px;
-  height: 604px;
+  width: 327px;
+  height: 411px;
   top: 0;
   padding: 114px 24px 114px 24px;
+  border: 1px solid #dfe1e6;
+  margin-top: 12px;
+  border-radius: 16px;
 }
 
-section h2 {
+.headline h2 {
   width: 327px;
   height: 150px;
   font-size: 40px;
@@ -57,7 +97,7 @@ section h2 {
   top: -91px;
 }
 
-section p {
+.headline p {
   width: 327px;
   height: 146px;
   font-size: 16px;
@@ -67,7 +107,7 @@ section p {
   top: -90px;
 }
 
-section h5 {
+.headline h5 {
   width: 117px;
   height: 24px;
   position: relative;
@@ -90,4 +130,246 @@ section h5 {
   top: -124px;
   left: -12px;
   object-fit: contain;
+}
+
+.Project {
+  width: 362px;
+  height: 609px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 16px;
+  padding: 7px;
+  border: 1px solid #dfe1e6;
+  margin-top: 12px;
+  background: white;
+}
+
+.ProjectImg {
+  border-radius: 5px 5px 5px 5px;
+  object-fit: cover;
+}
+
+.Project h1 {
+  position: relative;
+  top: -15px;
+  padding: 0%;
+}
+
+.Project h5 {
+  position: relative;
+  left: 4px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  position: relative;
+  top: -55px;
+  padding: 0%;
+}
+
+.ProjectDetail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 37px;
+}
+
+.Project p {
+  width: 251px;
+  height: 2px;
+  position: relative;
+  top: -80px;
+  left: 4px;
+}
+
+.Project span {
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.Languages {
+  position: relative;
+  top: -29px;
+  left: 3px;
+}
+
+.Projectbtn {
+  width: 126px;
+  height: 48px;
+  position: relative;
+  top: -14px;
+  left: 3px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: 1px solid #6070ff;
+  background: white;
+  color: #396df2;
+}
+
+.Projectbtn:hover,
+.Projectbtn:active {
+  cursor: pointer;
+}
+
+.AboutMe {
+  border: 1px solid #ebebff;
+  background: white;
+  width: 375px;
+  height: 1432px;
+  position: relative;
+  padding: 114px 24px 114px 24px;
+  border-radius: 5px 62px 5px 5px;
+  margin-top: 1px;
+}
+
+.desc {
+  position: relative;
+  top: -89px;
+  width: 299px;
+  letter-spacing: 0.03em;
+}
+
+.AboutMe h1 {
+  position: relative;
+  top: -90px;
+}
+
+.AboutMe h5 {
+  width: 117px;
+  height: 24px;
+  position: relative;
+  top: -95px;
+  color: #6070ff;
+}
+
+.icon2 {
+  position: relative;
+  top: 18px;
+}
+
+.btn2 {
+  width: 166px;
+  position: relative;
+  top: -66px;
+  left: -5px;
+}
+
+.btn2:hover,
+.btn2:active {
+  cursor: pointer;
+}
+
+.Headings {
+  position: relative;
+  top: -31px;
+  left: -3px;
+}
+
+.Skills {
+  margin-bottom: 12px;
+  position: relative;
+  top: -34px;
+  height: 54px;
+  padding: 8px;
+  width: 88%;
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 11px;
+  font-size: 15px;
+}
+
+.img {
+  width: 46px;
+  height: 43px;
+  position: relative;
+  top: 0;
+  left: 1px;
+  object-fit: contain;
+}
+
+.Skills p {
+  position: relative;
+  left: 7px;
+  top: 1px;
+}
+
+.heading2 {
+  top: -17px;
+  border-bottom: 1px solid #ada4a4;
+  padding: 0 0 16px 1px;
+}
+
+.contactForm {
+  background-image: url(images/Contact\ me.png);
+  width: 351px;
+  height: 709.17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10px;
+  top: 22px;
+}
+
+.contactForm h1 {
+  position: relative;
+  top: 72px;
+  font-weight: 700;
+  color: white;
+}
+
+.contactForm p {
+  width: 264px;
+  height: 137px;
+  position: relative;
+  top: 54px;
+  left: 25px;
+  color: white;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#nameInput {
+  width: 285px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+#emailinput {
+  width: 285px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+#msgInput {
+  width: 285px;
+  height: 164px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.btn3 {
+  top: 17px;
+  left: -85px;
 }
