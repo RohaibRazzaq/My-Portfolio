@@ -28,6 +28,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  font-family: "poppins";
 }
 
 .myWorks {
@@ -76,6 +77,10 @@
   border-radius: 8px;
 }
 
+.desktop-only {
+  display: none;
+}
+
 .headline {
   background-image: url(images/header-shapes\ mobile.png);
   position: relative;
@@ -83,9 +88,7 @@
   height: 411px;
   top: 0;
   padding: 114px 24px 114px 24px;
-  border: 1px solid #dfe1e6;
   margin-top: 12px;
-  border-radius: 16px;
 }
 
 .headline h2 {
@@ -148,6 +151,7 @@
 .ProjectImg {
   border-radius: 5px 5px 5px 5px;
   object-fit: cover;
+  width: 100%;
 }
 
 .Project h1 {
@@ -195,7 +199,7 @@
 
 .Languages {
   position: relative;
-  top: -29px;
+  top: -14px;
   left: 3px;
 }
 
@@ -203,7 +207,7 @@
   width: 126px;
   height: 48px;
   position: relative;
-  top: -14px;
+  top: 10px;
   left: 3px;
   padding: 12px;
   border-radius: 8px;
@@ -230,6 +234,7 @@
   padding: 114px 24px 114px 24px;
   border-radius: 5px 62px 5px 5px;
   margin-top: 1px;
+  left: 10px;
 }
 
 .desc {
@@ -237,11 +242,13 @@
   top: -89px;
   width: 299px;
   letter-spacing: 0.03em;
+  left: 10px;
 }
 
 .AboutMe h1 {
   position: relative;
   top: -90px;
+  left: 10px;
 }
 
 .AboutMe h5 {
@@ -250,11 +257,13 @@
   position: relative;
   top: -95px;
   color: #6070ff;
+  left: 10px;
 }
 
 .icon2 {
   position: relative;
   top: 18px;
+  left: 10px;
 }
 
 .btn2 {
@@ -262,6 +271,7 @@
   position: relative;
   top: -66px;
   left: -5px;
+  left: 10px;
 }
 
 .btn2:hover,
@@ -273,6 +283,7 @@
   position: relative;
   top: -31px;
   left: -3px;
+  color: #5a53539c;
 }
 
 .Skills {
@@ -320,7 +331,7 @@
   align-items: center;
   background-repeat: no-repeat;
   position: relative;
-  left: 10px;
+  left: 6px;
   top: 22px;
 }
 
@@ -335,9 +346,9 @@
   width: 264px;
   height: 137px;
   position: relative;
-  top: 54px;
   left: 25px;
   color: white;
+  top: 41px;
 }
 
 .contactForm form {
@@ -346,6 +357,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-top: 37px;
 }
 
 #nameInput {
@@ -371,5 +383,248 @@
 
 .btn3 {
   top: 17px;
-  left: -85px;
+  left: auto;
+}
+
+@media (min-width: 768px) {
+  .desktop-only {
+    display: inline;
+  }
+
+  .desktop-only button {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    width: 63px;
+    height: 32px;
+    padding: 5px;
+    color: #344563;
+    background: white;
+    border: none;
+  }
+
+  .desktop-only button:hover,
+  button:active {
+    cursor: pointer;
+    color: #45526ca2;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    width: 98%;
+    height: 70px;
+    padding: 0 13px 16px 13px;
+  }
+
+  .headline {
+    width: 99%;
+    background-image: url(images/Header\ bg@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border-radius: 0 0 10px 10px;
+    left: 50px;
+  }
+
+  .headline h2 {
+    left: 11%;
+    top: 7%;
+    width: 31%;
+  }
+
+  .headline p {
+    top: -25px;
+    left: 11%;
+    width: 58%;
+  }
+
+  .headline h5 {
+    left: 11%;
+  }
+
+  .icons {
+    position: relative;
+    left: 11%;
+    top: 2px;
+  }
+
+  .Project {
+    width: 94%;
+    height: 69%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .ProjectImg {
+    width: 102vh;
+    height: 70vh;
+  }
+
+  .myWorks {
+    width: 96%;
+    padding: 0 24px 95px 24px;
+    gap: 0;
+  }
+
+  .Details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 33px;
+    left: 15px;
+  }
+
+  .Details h1 {
+    font-size: 25px;
+  }
+
+  .Details p {
+    width: 78%;
+    top: -12%;
+  }
+
+  .list {
+    font-family: poppins;
+    font-weight: 500;
+  }
+
+  .Languages {
+    top: 10px;
+  }
+
+  .Projectbtn {
+    top: 55px;
+  }
+
+  .AboutMe {
+    width: 96%;
+    border-top-right-radius: 108px;
+  }
+
+  .aboutmeDesktop {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -10px;
+    height: 29%;
+  }
+
+  .self {
+    position: relative;
+    left: 103px;
+    top: 95px;
+  }
+
+  .lang {
+    position: relative;
+    left: -8%;
+    top: 20px;
+    width: 44%;
+  }
+
+  .self > h1:first-of-type {
+    left: 0%;
+    font-size: 25px;
+  }
+
+  .self p {
+    top: -23%;
+    left: 0%;
+    width: 56%;
+  }
+
+  .AboutMe h5 {
+    top: -24%;
+    left: 0%;
+  }
+
+  .icon2 {
+    top: 3%;
+    left: 3%;
+  }
+
+  .btn2 {
+    left: 0%;
+    top: -17%;
+  }
+
+  .Headings {
+    font-weight: 600;
+  }
+
+  .Skills {
+    width: 122px;
+    height: 120px;
+    padding: 12px 12px 20px 12px;
+    gap: 0;
+    border-radius: 8px;
+  }
+
+  .Skills img {
+    top: -24px;
+    width: 51%;
+    height: 47%;
+  }
+
+  .Skills p {
+    position: relative;
+    top: 32px;
+    left: -40%;
+    font-size: 18px;
+  }
+
+  .skillsdiv {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    width: 100%;
+    height: 24%;
+  }
+
+  .heading2 {
+    top: 45px;
+  }
+
+  .contactForm {
+    display: block;
+    width: 99%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+    top: 6%;
+    font-family: poppins;
+  }
+
+  .contactForm h1 {
+    font-size: 27px;
+    margin: 10px;
+  }
+
+  .contactForm p {
+    width: 30%;
+    text-align: center;
+  }
+
+  .contactForm form {
+    margin-top: 24px;
+  }
+
+  #nameInput,
+  #emailinput,
+  #msgInput {
+    border-radius: 0;
+  }
+
+  .btn3 {
+    top: 12px;
+    left: auto;
+  }
 }
